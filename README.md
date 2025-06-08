@@ -1,6 +1,66 @@
 # Sulov
 
 ---------------------
+
+
+																		08.06.2025 
+//1. намира макс нечетно от 3 
+ if (a % 2 != 0) max = a;
+    else if (b % 2 != 0) max = b;
+    else if (c % 2 != 0) max = c;
+    else {
+        cout << "Няма нечетни числа";
+        return 0;
+    }
+
+    if (b % 2 != 0 && b > max) max = b;
+    if (c % 2 != 0 && c > max) max = c;
+
+  cout<<max;
+---------- 2 
+int main() 
+{
+    int g; 
+    cin >> g;
+    cout << ((g % 4 == 0 && g % 100 != 0) || (g % 400 == 0) ? "yes" : "no");
+    return 0;
+}
+
+--- 3
+int a, min, max;
+cin>>a;
+min=a; 
+max=a;
+while(a!=0) {
+  if ( max<=a) { max = a; }
+  if ( min>=a) min=a; 
+  cin>>a;
+}
+cout<<min<<" "<<max;
+------------- 4
+int n; 
+cin>>n;
+ while ((n<5)||(n>50)) {
+
+  cout<<"nekorekton vhod"<<endl;  
+  cin>>n;
+}
+
+cout<<n*n;
+
+-------- 5 
+int n,p ;
+cin>>n;
+for ( int i=0; i<n; n++)
+{ p=n%10; 
+
+}
+cout<<p;
+----------
+
+
+
+
  ---------------------------- З А Д А Ч И  Н А  С / С + + ----------------------------
    int a, b, c;
 	   complex<double> x1, x2;
