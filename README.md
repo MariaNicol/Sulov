@@ -5,10 +5,8 @@
    int a, b, c;
 	   complex<double> x1, x2;
 	   double D;
-
 	   cin >> a >> b >> c;
 	   D = b * b - 4 * a * c;
-
 	   if (D > 0) {
 		   x1 = (-b + sqrt(D)) / (2.0 * a);
 		   x2 = (-b - sqrt(D)) / (2.0 * a);
@@ -51,8 +49,7 @@
 		cout << "the numbers: " << endl;
 		cin >> v;
 		//for (int i = 0; i <= n; i++)
-		
-			for (int j = 0; j <= n; j++)
+				for (int j = 0; j <= n; j++)
 			{	sum = sum + j;	}
 		cout << sum<<endl;
 	}
@@ -65,7 +62,6 @@
 		sum = sum + i; 
 	}
 	cout << sum;*/
---------------------
 	//факториел
 	/*int n, f = 1;
 	cin >> n;
@@ -88,7 +84,6 @@
 		cout <<"sum: "<< sum;
 	------------
 	average&sum of n nums:
-	
 	int n, num,average=0,sum=0;
 		cin >> n;
 	   for (int i=0; i<n;i++)
@@ -110,12 +105,10 @@
 	   намира сума на нечетни числа , въведени от нас 
 	   int n,num, sum = 0; 
 		cin >> n;
-
 		for(int i=0; i<n; i++)
 		{
 			cin >> num;
-			if (num % 2 == 1) sum += num;
-			
+			if (num % 2 == 1) sum += num;		
 		}cout <<"Sum na ne4etnite (vuvedeni) 4isla = " << sum;
 		----------------------------------------------------------------------------//////////////////////////////////////////////////////////////////////////////////////////////////		
 	04.03	int x, k;
@@ -127,7 +120,6 @@
 		double  price , dds, cbd; //cbd = cena s dds	
 		cout << "enter qty: "<<endl; cin >> qty;
 		cout << "enter price: "<<endl; cin >> price;
-
 		cbd = qty * price; cout << "Cena bez DDS= " << cbd << endl; // ok
      	dds = (cbd*1.2)-cbd;  cout << "Stoinost na DDS= " << dds << endl;
 		// 2РО РЕШЕНИЕ ЗА ? ДДС--> УМНОЖАВАМЕ ПО 0,2 И НАМИРАМЕ ДИРЕКНО ДДС, АКО * 1,2О ТРЯБВА ДА СЕ ВАДИ НАЧАЛНТА СТОЙНОСТ 
@@ -160,7 +152,6 @@
 		-------------
 		!! различна е от горнат!!!
 		int n; cin >> n;
-
 		for (int i=1; i<=n; i++)
 		{
 			for (int j = 1; j<=i; j++)
@@ -177,8 +168,7 @@
 			for (j = 1; j <= n - i; j++)
 			{
 				cout << " ";
-			}
-			
+			}		
 			for (j = 1; j <= i; j++)
 			{
 				cout <<i <<" ";
@@ -198,7 +188,6 @@
 		cout << "Въведи числата ";
 		cin >> a >> b >> c;
 		max = a;
-
 		if (b > max) max = b;  // !!!!!!!!!!!!!!!!!!!!!!!!!!!! П Р О В Е Р Я В А Н Е  С  М А Х !!!!!! НЕ С a !!!! 
 		if (c > max) max = c;
 		cout << "Max is " << c;
@@ -206,7 +195,6 @@
 		int x,y,z,a;
 		cout << " Въвеждане на числата: ";
 		cin >> x >> y >> z;
-
 		if (x>y)
 		{
 			a = x;
@@ -250,8 +238,6 @@ double km, cena;
 	int a, b, c,max;
 	cin >> a >> b >> c;
 	max = a;
-
-
 	if (b >= max && b % 2 == 1)
 	{
 		 max=b;
@@ -261,11 +247,8 @@ double km, cena;
 		 max=c;
 	}
 	cout << max;
-	
-	
 	----------------------------
 	26.05
-	
 	#include <iostream>
 #include <limits>
 
