@@ -10,6 +10,18 @@ while ((n!=0)&&(k!=p))
      if ( k==p) cout<<"yes"<<k<<" "<<p;
     else cout<<"no";
     return 0;
+    --
+    int n,k, sum=0; 
+    cin>>n;
+    while ( n!=0) 
+    {
+       k= n%10;
+       sum= sum+k;
+       n=n /10;
+
+    }
+cout<<"sum = "<<sum;
+    return 0;
 
 
 ---------------------
