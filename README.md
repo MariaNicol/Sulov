@@ -1,4 +1,5 @@
 # Sulov
+
 ------------
 int n, p , k; 
     cin>>n; 
